@@ -1,0 +1,32 @@
+To fully understand the export builtin function in your minishell, you should learn about:
+
+Shell Environment Variables
+
+What environment variables are and how they are used in Unix shells.
+How export makes variables available to child processes.
+C Strings and String Manipulation
+
+How to parse and split strings in C (e.g., finding = in VAR=value).
+How to check if a string is a valid variable name (letters, digits, underscores, not starting with a digit).
+Linked Lists in C
+
+How environment variables are stored as a linked list (t_env).
+How to traverse, update, and add nodes to a linked list.
+Memory Management in C
+
+How to allocate, duplicate, and free memory for strings and structs.
+Sorting Algorithms (optional)
+
+How to sort a list or array of environment variables for display.
+Shell Builtin Behavior
+
+The difference between built-in commands and external programs.
+How export behaves in bash/zsh (e.g., export VAR=value, export VAR, export with no arguments).
+Recommended topics to study:
+
+C pointers and dynamic memory
+String functions (strchr, strdup, etc.)
+Linked list basics
+POSIX shell variable rules
+How environment variables are inherited by child processes
+Understanding these concepts will help you read, modify, and extend your export builtin implementation.
